@@ -1,4 +1,4 @@
-"strict-mode";
+"use strict";
 
 function longestSentence(text) {
   let sentenceRegex = /\w[^.!?]*?[.!?]/g;
